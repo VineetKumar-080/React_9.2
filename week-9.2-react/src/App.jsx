@@ -23,6 +23,7 @@ function Counter(){
       setCount(count => count + 1);
     },1000)
     console.log("mounted");
+    // mounting only done once,
   }, [])
 
 
